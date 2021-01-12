@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/bgmmandyong.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto Mono", monospace;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav img {
+  width: 100px;
+  height: auto;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+}
+
+#gif {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 20vh;
+}
